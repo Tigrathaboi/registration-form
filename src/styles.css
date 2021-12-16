@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  display: flex;
+  width: 1440px;
+  height: 942px;
+  left: 0px;
+  top: 0px;
+
+  background: url(53891.jpg);
+  background-repeat: no-repeat;
+}
+header {
+  position: absolute;
+  width: 1440px;
+  height: 69px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(41, 31, 57, 0.7);
+  backdrop-filter: blur(10px);
+
+  /* Note: backdrop-filter has minimal browser support */
+
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.header_box {
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  left: 149px;
+  top: 11px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.test {
+  position: absolute;
+  left: 149px;
+  top: 11px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.registration_box {
+  position: absolute;
+  width: 146px;
+  height: 38px;
+  left: 1091px;
+  top: 15px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+.to_registration {
+  position: absolute;
+  width: 89px;
+  height: 36px;
+  left: 944px;
+  top: 17px;
+}
+.registration {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 520;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #291f39;
+}
+.language {
+  position: absolute;
+  width: 23px;
+  height: 19px;
+  left: 1264px;
+  top: 26px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.nav_link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+.link1 {
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 469px;
+  top: 27px;
+}
+.link2 {
+  position: absolute;
+  width: 117px;
+  height: 19px;
+  left: 577px;
+  top: 27px;
+}
+.link3 {
+  position: absolute;
+  width: 127px;
+  height: 19px;
+  left: 759px;
+  top: 26px;
+}
+.link4 {
+  position: absolute;
+  width: 46px;
+  height: 19px;
+  left: 47px;
+  top: 9.2px;
+}
+.profile_icon {
+  position: absolute;
+  left: 9.38%;
+  right: 9.38%;
+  top: 9.38%;
+  bottom: 9.38%;
+}
+.info {
+  /* position: absolute; */
+  width: 1440px;
+  height: 287px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(155, 225, 187, 0.67) 0%,
+    rgba(155, 225, 187, 0) 100%
+  );
+}
+.info_text {
+  position: absolute;
+  width: 700px;
+  height: 36px;
+  left: 370px;
+  top: 135px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #291f39;
+}
+.registration_form {
+  position: absolute;
+  width: 590px;
+  height: 587px;
+  left: 425px;
+  top: 250px;
+
+  background: rgba(41, 31, 57, 0.7);
+  border-radius: 10px;
+}
+#mail {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 120px;
+  top: 100px;
+
+  background: #f3f3f3;
+  border-radius: 10px;
+  border-color: #f3f3f3;
+}
+#password {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 120px;
+  top: 209px;
+
+  background: #f3f3f3;
+  border-radius: 10px;
+  border-color: #f3f3f3;
+}
+#repeat_password {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 120px;
+  top: 318px;
+
+  background: #f3f3f3;
+  border-radius: 10px;
+  border-color: #f3f3f3;
+}
+.mail_text {
+  position: absolute;
+  width: 48px;
+  height: 19px;
+  left: 120px;
+  top: 66px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.pass_text {
+  position: absolute;
+  width: 158px;
+  height: 19px;
+  left: 120px;
+  top: 172px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.passrep_text {
+  position: absolute;
+  width: 165px;
+  height: 19px;
+  left: 120px;
+  top: 281px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.mark {
+  position: absolute;
+  width: 7px;
+  height: 17px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ff7373;
+}
+.check {
+  position: absolute;
+  left: 122px;
+  z-index: -10;
+  opacity: 0;
+}
+.check_text {
+  position: absolute;
+  width: 314px;
+  height: 15px;
+  left: 120px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 214, 134, 0.67);
+}
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+  left: 8px;
+  top: 6px;
+  width: 5px;
+  height: 4px;
+  border-radius: 1px;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+input[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+}
+input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.button {
+  position: absolute;
+  width: 350px;
+  height: 43px;
+  left: 120px;
+  top: 469px;
+
+  background: linear-gradient(180deg, #b67c7c 0%, #9c4141 100%);
+  border-radius: 10px;
+  border-color: transparent;
+  border-top-color: #b67c7c;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.danger {
+  background: linear-gradient(180deg, #b67c7c 0%, #9c4141 100%);
+  border-color: transparent;
+  border-top-color: #b67c7c;
+}
+.success {
+  background: linear-gradient(180deg, #9be1bb 0%, #47a271 100%);
+  border-color: transparent;
+  border-top-color: #9be1bb;
+}
+.registrationFormAlert {
+  position: absolute;
+  width: 350px;
+  height: 43px;
+  left: 120px;
+  top: 550px;
+
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

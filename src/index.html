@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header>
+      <div class="header_box">
+        <div class="test">ТЕСТ</div>
+        <a class="nav_link link1" href="#">КЛУБ</a>
+        <a class="nav_link link2" href="#">БАЗА ЗНАНИЙ</a>
+        <a class="nav_link link3" href="#">ИНСТРУМЕНТЫ</a>
+        <div class="to_registration">
+          <img class="profile_icon" src="Vector.svg" alt="logo" />
+          <a class="nav_link link4" href="#">ВХОД</a>
+        </div>
+        <div class="registration_box">
+          <p class="registration">РЕГИСТРАЦИЯ</p>
+        </div>
+        <div class="language">RU</div>
+      </div>
+    </header>
+    <main>
+      <div class="info">
+        <p class="info_text">Регистрация личного кабинета</p>
+      </div>
+      <form class="registration_form" id="form">
+        <div>
+          <label class="mail_text" for="mail">E-mail</label>
+          <p class="mark" style="left: 166px; top: 66px">*</p>
+          <input type="email" id="mail" name="user_mail" required />
+        </div>
+        <div>
+          <label class="pass_text" for="password">Придумайте пароль</label>
+          <p class="mark" style="left: 257px; top: 172px">*</p>
+          <input
+            class="password"
+            type="password"
+            id="password"
+            name="user_pass"
+            minlength="8"
+            required
+          />
+        </div>
+        <div>
+          <label class="passrep_text" for="repeat_password"
+            >Подтвердите пароль</label
+          >
+          <p class="mark" style="left: 261px; top: 281px">*</p>
+          <input
+            onkeyup="checkPasswordMatch();"
+            class="repeat_password"
+            type="password"
+            id="repeat_password"
+            name="user_reppass"
+            minlength="8"
+            required
+          />
+        </div>
+        <div class="registrationFormAlert" id="divCheckPasswordMatch"></div>
+        <div>
+          <input
+            class="check"
+            style="top: 389px"
+            type="checkbox"
+            id="check1"
+            name="check1"
+            value="yes"
+            required
+          />
+          <label for="check1" class="check_text" style="top: 390px"
+            >Я ознакомлен с Условиями, положениями и рисками</label
+          >
+        </div>
+        <div>
+          <input
+            class="check"
+            style="top: 429px"
+            type="checkbox"
+            id="check2"
+            name="check2"
+            value="yes"
+            required
+          />
+          <label for="check2" class="check_text" style="top: 407px"
+            >Я ознакомлен с Политикой конфиденциальности</label
+          >
+        </div>
+        <div>
+          <button class="button" id="submit" type="submit">Регистрация</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
